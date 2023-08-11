@@ -1,0 +1,10 @@
+// 載入 Bootstrap 的 functions
+@import "/node_modules/bootstrap/scss/functions";
+
+// 載入自定義變數
+@import './vendors/bootstrap_variables.scss';
+
+// 載入 Bootstrap 核心樣式
+@import "/node_modules/bootstrap/scss/bootstrap";
+
+@import './base/base.scss';
